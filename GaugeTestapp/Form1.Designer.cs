@@ -61,7 +61,7 @@ namespace GaugeTestapp
             this.hvGauge14.GaugeBackColor = System.Drawing.Color.Red;
             this.hvGauge14.GaugeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.hvGauge14.GaugeType = Mich3l.Controls.Gauges.HVGauge.GaugeTypes.Line;
-            this.hvGauge14.Location = new System.Drawing.Point(66, 402);
+            this.hvGauge14.Location = new System.Drawing.Point(243, 357);
             this.hvGauge14.MiddleRangeposition = Mich3l.Controls.Gauges.HVGauge.MidRangePositions.Position1;
             this.hvGauge14.Name = "hvGauge14";
             this.hvGauge14.ShowPercentSign = false;
@@ -77,7 +77,7 @@ namespace GaugeTestapp
             this.hvGauge15.GaugeBackColor = System.Drawing.Color.Red;
             this.hvGauge15.GaugeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.hvGauge15.GaugeType = Mich3l.Controls.Gauges.HVGauge.GaugeTypes.Line;
-            this.hvGauge15.Location = new System.Drawing.Point(66, 347);
+            this.hvGauge15.Location = new System.Drawing.Point(243, 302);
             this.hvGauge15.MiddleRangeposition = Mich3l.Controls.Gauges.HVGauge.MidRangePositions.Position2;
             this.hvGauge15.Name = "hvGauge15";
             this.hvGauge15.ShowPercentSign = false;
@@ -93,7 +93,7 @@ namespace GaugeTestapp
             this.hvGauge13.GaugeBackColor = System.Drawing.Color.White;
             this.hvGauge13.GaugeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.hvGauge13.GaugeType = Mich3l.Controls.Gauges.HVGauge.GaugeTypes.Line;
-            this.hvGauge13.Location = new System.Drawing.Point(66, 453);
+            this.hvGauge13.Location = new System.Drawing.Point(243, 408);
             this.hvGauge13.Name = "hvGauge13";
             this.hvGauge13.ShowPercentSign = false;
             this.hvGauge13.ShowRanges = false;
@@ -109,7 +109,7 @@ namespace GaugeTestapp
             this.hvGauge12.ForeColor = System.Drawing.Color.Black;
             this.hvGauge12.GaugeBackColor = System.Drawing.Color.Red;
             this.hvGauge12.GaugeType = Mich3l.Controls.Gauges.HVGauge.GaugeTypes.Line;
-            this.hvGauge12.Location = new System.Drawing.Point(66, 296);
+            this.hvGauge12.Location = new System.Drawing.Point(243, 251);
             this.hvGauge12.Name = "hvGauge12";
             this.hvGauge12.ShowPercentSign = false;
             this.hvGauge12.Size = new System.Drawing.Size(450, 45);
@@ -121,7 +121,7 @@ namespace GaugeTestapp
             // 
             this.hvGauge11.BackColor = System.Drawing.SystemColors.Control;
             this.hvGauge11.ForeColor = System.Drawing.Color.Black;
-            this.hvGauge11.Location = new System.Drawing.Point(66, 245);
+            this.hvGauge11.Location = new System.Drawing.Point(243, 200);
             this.hvGauge11.Name = "hvGauge11";
             this.hvGauge11.Size = new System.Drawing.Size(450, 45);
             this.hvGauge11.SmoothGradientTransition = true;
@@ -132,7 +132,7 @@ namespace GaugeTestapp
             // 
             this.hvGauge10.BackColor = System.Drawing.SystemColors.Control;
             this.hvGauge10.ForeColor = System.Drawing.Color.Black;
-            this.hvGauge10.Location = new System.Drawing.Point(66, 194);
+            this.hvGauge10.Location = new System.Drawing.Point(243, 149);
             this.hvGauge10.Name = "hvGauge10";
             this.hvGauge10.Size = new System.Drawing.Size(450, 45);
             this.hvGauge10.StackedBar = false;
@@ -143,7 +143,7 @@ namespace GaugeTestapp
             // 
             this.hvGauge9.BackColor = System.Drawing.SystemColors.Control;
             this.hvGauge9.ForeColor = System.Drawing.Color.Black;
-            this.hvGauge9.Location = new System.Drawing.Point(66, 143);
+            this.hvGauge9.Location = new System.Drawing.Point(243, 98);
             this.hvGauge9.Name = "hvGauge9";
             this.hvGauge9.Size = new System.Drawing.Size(450, 45);
             this.hvGauge9.TabIndex = 9;
@@ -153,12 +153,18 @@ namespace GaugeTestapp
             // 
             this.hvGauge8.BackColor = System.Drawing.SystemColors.Control;
             this.hvGauge8.ForeColor = System.Drawing.Color.Black;
-            this.hvGauge8.Location = new System.Drawing.Point(66, 102);
+            this.hvGauge8.GaugeOrientation = Mich3l.Controls.Gauges.HVGauge.GaugeOrientations.Vertical;
+            this.hvGauge8.IndicatorColor = System.Drawing.Color.Black;
+            this.hvGauge8.IndicatorDisplayTime = 1500;
+            this.hvGauge8.Location = new System.Drawing.Point(65, 17);
             this.hvGauge8.Margin = new System.Windows.Forms.Padding(0);
             this.hvGauge8.Name = "hvGauge8";
             this.hvGauge8.ShowBorder = false;
+            this.hvGauge8.ShowIndicator = true;
             this.hvGauge8.ShowPercentSign = false;
-            this.hvGauge8.Size = new System.Drawing.Size(450, 28);
+            this.hvGauge8.ShowValue = false;
+            this.hvGauge8.Size = new System.Drawing.Size(39, 450);
+            this.hvGauge8.SmoothGradientTransition = true;
             this.hvGauge8.TabIndex = 8;
             this.hvGauge8.Text = "hvGauge8";
             // 
@@ -166,12 +172,18 @@ namespace GaugeTestapp
             // 
             this.hvGauge7.BackColor = System.Drawing.SystemColors.Control;
             this.hvGauge7.ForeColor = System.Drawing.Color.Black;
-            this.hvGauge7.Location = new System.Drawing.Point(66, 74);
+            this.hvGauge7.GaugeOrientation = Mich3l.Controls.Gauges.HVGauge.GaugeOrientations.Vertical;
+            this.hvGauge7.IndicatorColor = System.Drawing.Color.Black;
+            this.hvGauge7.IndicatorDisplayTime = 1500;
+            this.hvGauge7.Location = new System.Drawing.Point(104, 17);
             this.hvGauge7.Margin = new System.Windows.Forms.Padding(0);
             this.hvGauge7.Name = "hvGauge7";
             this.hvGauge7.ShowBorder = false;
+            this.hvGauge7.ShowIndicator = true;
             this.hvGauge7.ShowPercentSign = false;
-            this.hvGauge7.Size = new System.Drawing.Size(450, 28);
+            this.hvGauge7.ShowValue = false;
+            this.hvGauge7.Size = new System.Drawing.Size(39, 450);
+            this.hvGauge7.SmoothGradientTransition = true;
             this.hvGauge7.TabIndex = 7;
             this.hvGauge7.Text = "hvGauge7";
             // 
@@ -179,12 +191,18 @@ namespace GaugeTestapp
             // 
             this.hvGauge6.BackColor = System.Drawing.SystemColors.Control;
             this.hvGauge6.ForeColor = System.Drawing.Color.Black;
-            this.hvGauge6.Location = new System.Drawing.Point(66, 46);
+            this.hvGauge6.GaugeOrientation = Mich3l.Controls.Gauges.HVGauge.GaugeOrientations.Vertical;
+            this.hvGauge6.IndicatorColor = System.Drawing.Color.Black;
+            this.hvGauge6.IndicatorDisplayTime = 1500;
+            this.hvGauge6.Location = new System.Drawing.Point(143, 17);
             this.hvGauge6.Margin = new System.Windows.Forms.Padding(0);
             this.hvGauge6.Name = "hvGauge6";
             this.hvGauge6.ShowBorder = false;
+            this.hvGauge6.ShowIndicator = true;
             this.hvGauge6.ShowPercentSign = false;
-            this.hvGauge6.Size = new System.Drawing.Size(450, 28);
+            this.hvGauge6.ShowValue = false;
+            this.hvGauge6.Size = new System.Drawing.Size(39, 450);
+            this.hvGauge6.SmoothGradientTransition = true;
             this.hvGauge6.TabIndex = 6;
             this.hvGauge6.Text = "hvGauge6";
             // 
@@ -192,12 +210,18 @@ namespace GaugeTestapp
             // 
             this.hvGauge5.BackColor = System.Drawing.SystemColors.Control;
             this.hvGauge5.ForeColor = System.Drawing.Color.Black;
-            this.hvGauge5.Location = new System.Drawing.Point(66, 18);
+            this.hvGauge5.GaugeOrientation = Mich3l.Controls.Gauges.HVGauge.GaugeOrientations.Vertical;
+            this.hvGauge5.IndicatorColor = System.Drawing.Color.Black;
+            this.hvGauge5.IndicatorDisplayTime = 1500;
+            this.hvGauge5.Location = new System.Drawing.Point(182, 17);
             this.hvGauge5.Margin = new System.Windows.Forms.Padding(0);
             this.hvGauge5.Name = "hvGauge5";
             this.hvGauge5.ShowBorder = false;
+            this.hvGauge5.ShowIndicator = true;
             this.hvGauge5.ShowPercentSign = false;
-            this.hvGauge5.Size = new System.Drawing.Size(450, 28);
+            this.hvGauge5.ShowValue = false;
+            this.hvGauge5.Size = new System.Drawing.Size(39, 450);
+            this.hvGauge5.SmoothGradientTransition = true;
             this.hvGauge5.TabIndex = 5;
             this.hvGauge5.Text = "hvGauge5";
             // 
@@ -269,7 +293,7 @@ namespace GaugeTestapp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 485);
+            this.ClientSize = new System.Drawing.Size(716, 492);
             this.Controls.Add(this.hvGauge14);
             this.Controls.Add(this.hvGauge15);
             this.Controls.Add(this.hvGauge13);
@@ -286,8 +310,8 @@ namespace GaugeTestapp
             this.Controls.Add(this.hvGauge2);
             this.Controls.Add(this.hvGauge1);
             this.Name = "Form1";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
             this.ResumeLayout(false);
 
         }
