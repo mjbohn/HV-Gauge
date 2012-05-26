@@ -1,0 +1,10 @@
+D:\Visual Studio 2008\Projects\GaugeTestapp\GaugeTestapp\bin\Debug\GaugeTestapp.exe
+D:\Visual Studio 2008\Projects\GaugeTestapp\GaugeTestapp\bin\Debug\GaugeTestapp.pdb
+D:\Visual Studio 2008\Projects\GaugeTestapp\GaugeTestapp\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\GaugeTestapp\GaugeTestapp\obj\Debug\GaugeTestapp.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\GaugeTestapp\GaugeTestapp\obj\Debug\GaugeTestapp.csproj.GenerateResource.Cache
+D:\Visual Studio 2008\Projects\GaugeTestapp\GaugeTestapp\obj\Debug\GaugeTestapp.exe
+D:\Visual Studio 2008\Projects\GaugeTestapp\GaugeTestapp\obj\Debug\GaugeTestapp.pdb
+D:\Visual Studio 2008\Projects\GaugeTestapp\GaugeTestapp\obj\Debug\GaugeTestapp.Form1.resources
+D:\Visual Studio 2008\Projects\GaugeTestapp\GaugeTestapp\bin\Debug\HVGauge.dll
+D:\Visual Studio 2008\Projects\GaugeTestapp\GaugeTestapp\bin\Debug\HVGauge.pdb

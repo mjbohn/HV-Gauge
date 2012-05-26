@@ -1,0 +1,5 @@
+D:\Visual Studio 2008\Projects\GaugeTestapp\HVGauge\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\GaugeTestapp\HVGauge\bin\Debug\HVGauge.dll
+D:\Visual Studio 2008\Projects\GaugeTestapp\HVGauge\bin\Debug\HVGauge.pdb
+D:\Visual Studio 2008\Projects\GaugeTestapp\HVGauge\obj\Debug\HVGauge.dll
+D:\Visual Studio 2008\Projects\GaugeTestapp\HVGauge\obj\Debug\HVGauge.pdb
